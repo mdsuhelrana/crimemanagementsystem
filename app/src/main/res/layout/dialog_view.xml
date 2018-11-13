@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:id="@+id/linerLayout_Id"
+    android:background="@drawable/layout_background"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:textSize="13dp"
+            android:background="@drawable/delete_icon"
+            android:textColor="#ffffffff"
+            android:id="@+id/delete_Id"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:textSize="13dp"
+            android:background="@drawable/edit_icon"
+            android:id="@+id/update_Id"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#ffffffff"/>
+    </LinearLayout>
+
+</LinearLayout>

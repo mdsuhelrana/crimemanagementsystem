@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">CrimeManagement</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_logout">Logout</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_exit">Exit</string>
+
+    <string name="hello_blank_fragment">
+        What about this application? \n
+        In this application uses two catagory.\n
+        1.User modiul\n
+        2.Admin modiul\n
+        User modiul :- In this section user will get a login state if has no account in this
+        application he can do sign up first then he can easily can go to the report page\n
+        And then he can report easily to this section \n
+        this apps also has been given to the user if one crime report seem wrong then he/she modify
+        or edit this report and can sent this to the admin\n\n
+        Admin Modiul :- In this section Admin have an special email pass only for see them
+        and when the admin seems any crime report is true then he will go for action\n
+        And he has given a opportunity for three update session\n
+        (i).seen :--> first time he see that...\n
+        (ii)processing : when he process about any report.\n
+        (iii) finish : Or work has done by successfully.\n\n
+        In this application easily and low costing way we can report our
+        authority or corporation managment system.\n
+        Who are the user of this app?\n
+        This application basically can used everyone can be victim or any genourlist or any
+        goverment forces. In a word everyone use this app.\n
+         Why this application is needed for us?\n
+        In this application developer or creator created in two catagory One is user and 2nd is
+        admin\n
+        Basicaly we can see when a affacted people or victim of crime harrage or hamper by
+        the smuggling and criminal then he/she does not know what should they do or
+        what will they do imidiately but if they have a smart phone and this app
+        then they can easily report nearest pollice station for helping them and easily
+        they can overcome their haragement\n
+        Admin, how can help the victim of who have got into trouble ?\n
+        In this application uses two catagories Admin modiul is one of them
+        Admin can see who has sent report and who are the victim
+        then he first justify it its real or not if this report is real then he action imedieately\n
+        thus this way one victim can get better help\
+
+       </string>
+</resources>

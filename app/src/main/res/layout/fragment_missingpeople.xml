@@ -1,0 +1,171 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_background"
+    tools:context="com.example.mdsuhelrana.helloandroid.userModiulPackage.ComplainFragment">
+
+    <LinearLayout
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ffffff"
+           >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_missPeoplename_Id"
+                android:hint="name"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age : "
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+            <Spinner
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner_Id"
+                ></Spinner>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender : "
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                />
+
+            <RadioGroup
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gender_rg_Id"
+                android:orientation="vertical">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/male_Id"
+                    android:textColorLink="@color/colorAccent"
+                    android:textColor="#ffffff"
+                    android:text="male"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/female_Id"
+                    android:textColorLink="@color/colorAccent"
+                    android:textColor="#ffffff"
+                    android:text="female"/>
+            </RadioGroup>
+        </LinearLayout>
+
+
+        <LinearLayout
+        android:layout_marginTop="7dp"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ffffff">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_laseen_Id"
+                android:hint="lastseen"
+                android:textColor="#000000"
+                android:textSize="18sp"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="7dp"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ffffff">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_address_Id"
+            android:textColor="#000000"
+            android:hint="address"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+
+
+        <Button
+            android:layout_margin="5dp"
+            android:layout_marginTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_Mpdate_Id"
+            android:text="select date"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:layout_marginTop="7dp"
+            android:id="@+id/photo_Id"
+            android:layout_width="300dp"
+            android:layout_height="220dp"
+            android:src="@drawable/imagebacground"
+            android:layout_gravity="center"
+            android:background="#ffffff" />
+        <Button
+            android:layout_marginTop="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:text="take photo"
+            android:id="@+id/capture_Id"
+            />
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_marginTop="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_details_Id"
+            android:hint="small details"
+            android:textColor="#000000"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="submit"
+        android:layout_gravity="center"
+        android:id="@+id/add_Id"
+        />
+    </LinearLayout>
+</ScrollView>
